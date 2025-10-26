@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Adaga",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d4",
+    "tipo_dano": "perfurante",
+    "propriedades": ["leve", "acuidade", "arremesso (6m/18m)"],
+    "peso": 0.5,
+    "custo_po": 2
+  },
+  {
+    "name": "Bordão",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d6",
+    "tipo_dano": "concussão",
+    "propriedades": ["versátil (1d8)"],
+    "peso": 2,
+    "custo_po": 0.2
+  },
+  {
+    "name": "Clava",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d4",
+    "tipo_dano": "concussão",
+    "propriedades": ["leve"],
+    "peso": 1,
+    "custo_po": 0.1
+  },
+  {
+    "name": "Foice Curta",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d6",
+    "tipo_dano": "cortante",
+    "propriedades": ["leve"],
+    "peso": 1,
+    "custo_po": 1
+  },
+  {
+    "name": "Lança",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d6",
+    "tipo_dano": "perfurante",
+    "propriedades": ["arremesso (6m/18m)", "versátil (1d8)"],
+    "peso": 1.5,
+    "custo_po": 1
+  },
+  {
+    "name": "Maça",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d6",
+    "tipo_dano": "concussão",
+    "propriedades": [],
+    "peso": 2,
+    "custo_po": 5
+  },
+  {
+    "name": "Machadinha",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d6",
+    "tipo_dano": "cortante",
+    "propriedades": ["leve", "arremesso (6m/18m)"],
+    "peso": 1,
+    "custo_po": 5
+  },
+  {
+    "name": "Porrete",
+    "proficiencia": "simples",
+    "tipo": "corpo a corpo",
+    "dano": "1d8",
+    "tipo_dano": "concussão",
+    "propriedades": ["duas mãos"],
+    "peso": 4,
+    "custo_po": 0.2
+  },
+  {
+    "name": "Arco Curto",
+    "proficiencia": "simples",
+    "tipo": "distância",
+    "dano": "1d6",
+    "tipo_dano": "perfurante",
+    "propriedades": ["munição (24m/96m)", "duas mãos"],
+    "peso": 1,
+    "custo_po": 25
+  },
+  {
+    "name": "Besta Leve",
+    "proficiencia": "simples",
+    "tipo": "distância",
+    "dano": "1d8",
+    "tipo_dano": "perfurante",
+    "propriedades": ["munição (24m/96m)", "recarga", "duas mãos"],
+    "peso": 2.5,
+    "custo_po": 25
+  },
+  {
+    "name": "Azagaia",
+    "proficiencia": "simples",
+    "tipo": "distância/corpo a corpo",
+    "dano": "1d4",
+    "tipo_dano": "perfurante",
+    "propriedades": ["arremesso (9m/36m)"],
+    "peso": 1,
+    "custo_po": 0.5
+  },
+  {
+    "name": "Funda",
+    "proficiencia": "simples",
+    "tipo": "distância",
+    "dano": "1d4",
+    "tipo_dano": "concussão",
+    "propriedades": ["munição (9m/36m)"],
+    "peso": 0,
+    "custo_po": 0.1
+  },
+  {
+    "name": "Espada Longa",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "1d8",
+    "tipo_dano": "cortante",
+    "propriedades": ["versátil (1d10)"],
+    "peso": 1.5,
+    "custo_po": 15
+  },
+  {
+    "name": "Espada Curta",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "1d6",
+    "tipo_dano": "perfurante",
+    "propriedades": ["leve", "acuidade"],
+    "peso": 1,
+    "custo_po": 10
+  },
+  {
+    "name": "Montante",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "2d6",
+    "tipo_dano": "cortante",
+    "propriedades": ["pesada", "duas mãos"],
+    "peso": 3,
+    "custo_po": 50
+  },
+  {
+    "name": "Machado de Batalha",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "1d8",
+    "tipo_dano": "cortante",
+    "propriedades": ["versátil (1d10)"],
+    "peso": 2,
+    "custo_po": 10
+  },
+  {
+    "name": "Martelo de Guerra",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "1d8",
+    "tipo_dano": "concussão",
+    "propriedades": ["versátil (1d10)"],
+    "peso": 2,
+    "custo_po": 15
+  },
+  {
+    "name": "Florete",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "1d8",
+    "tipo_dano": "perfurante",
+    "propriedades": ["acuidade"],
+    "peso": 1,
+    "custo_po": 25
+  },
+  {
+    "name": "Alabarda",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "1d10",
+    "tipo_dano": "cortante",
+    "propriedades": ["pesada", "alcançe", "duas mãos"],
+    "peso": 3,
+    "custo_po": 20
+  },
+  {
+    "name": "Lança de Cavalaria",
+    "proficiencia": "marcial",
+    "tipo": "corpo a corpo",
+    "dano": "1d12",
+    "tipo_dano": "perfurante",
+    "propriedades": ["pesada", "duas mãos"],
+    "peso": 3.5,
+    "custo_po": 10
+  },
+  {
+    "name": "Arco Longo",
+    "proficiencia": "marcial",
+    "tipo": "distância",
+    "dano": "1d8",
+    "tipo_dano": "perfurante",
+    "propriedades": ["munição (45m/180m)", "duas mãos"],
+    "peso": 1,
+    "custo_po": 50
+  },
+  {
+    "name": "Besta Pesada",
+    "proficiencia": "marcial",
+    "tipo": "distância",
+    "dano": "1d10",
+    "tipo_dano": "perfurante",
+    "propriedades": ["munição (30m/120m)", "pesada", "recarga", "duas mãos"],
+    "peso": 9,
+    "custo_po": 50
+  }
+]

@@ -1,0 +1,242 @@
+/* ===============================
+   FICHA OFICIAL - PÁGINA 1
+=============================== */
+
+#ficha-container {
+  position: relative;
+}
+
+.page {
+  background: #f8f3e7;
+  color: #1a1a1a;
+  border: 2px solid #3b2f1b;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  min-height: 72vh;
+  position: relative;
+}
+
+.page .turn-left,
+.page .turn-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 36px;
+  cursor: pointer;
+  opacity: 0.15;
+  transition: opacity 0.2s ease;
+}
+
+.page .turn-left:hover,
+.page .turn-right:hover {
+  opacity: 0.5;
+}
+
+.page .turn-left {
+  left: 0;
+}
+.page .turn-right {
+  right: 0;
+}
+
+.top-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+  align-items: end;
+}
+
+.top-info label input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #b9a47b;
+  border-radius: 6px;
+  background: #fffdfa;
+  font-family: inherit;
+}
+
+.class-info,
+.race-info {
+  border: 1px solid #b9a47b;
+  background: #fffdfa;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.attributes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.atributo {
+  background: #fffdfa;
+  border: 2px solid #b49a70;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+.attr-name {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.attr-value {
+  width: 64px;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid #b9a47b;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.attr-mod {
+  display: block;
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.combat-band {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.combat-box {
+  background: #fffdfa;
+  border: 2px solid #b49a70;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.section-title {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.pericias {
+  margin-top: 10px;
+  background: #fffdfa;
+  border: 2px solid #b49a70;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pericias-list {
+  columns: 2;
+}
+
+.pericias-list label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 2px 0;
+}
+
+.ataques-equip {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.table-box {
+  background: #fffdfa;
+  border: 2px solid #b49a70;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.table-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table-box th,
+.table-box td {
+  border-bottom: 1px solid #e3d6b9;
+  padding: 6px 4px;
+  text-align: left;
+}
+
+.table-box th {
+  font-weight: bold;
+}
+
+.page.turning {
+  transform-origin: right center;
+  transform: rotateY(-12deg);
+  transition: transform 0.25s ease;
+}
+.combat-log .log-entry {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: rgba(0, 0, 0, 0.15);
+}
+.log-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.log-line {
+  font-size: 0.95rem;
+  margin: 2px 0;
+}
+.roll-pool-box {
+  margin: 10px 0;
+  padding: 8px;
+  background: #eee3c2;
+  border-radius: 6px;
+  border: 2px solid #c8b27a;
+}
+
+.rp-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+.rp-values {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.rp-val {
+  background: #b07a30;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 2px solid #7a4e16;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 0.9rem;
+}
+
+.rp-val:hover {
+  background: #c8923a;
+  transform: scale(1.07);
+}
+
+.rp-tip {
+  margin-top: 4px;
+  font-size: 0.8rem;
+}

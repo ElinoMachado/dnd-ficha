@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Armadura de Couro",
+    "categoria": "leve",
+    "ca_base": 11,
+    "dex_max": null,
+    "requisito_for": null,
+    "desvantagem_furtividade": false,
+    "peso": 5.0,
+    "custo_po": 10,
+    "descricao": "Couraça de couro maleável."
+  },
+  {
+    "name": "Couro Batido",
+    "categoria": "leve",
+    "ca_base": 12,
+    "dex_max": null,
+    "requisito_for": null,
+    "desvantagem_furtividade": false,
+    "peso": 6.5,
+    "custo_po": 45,
+    "descricao": "Couro reforçado com rebites."
+  },
+  {
+    "name": "Cota de Malha Curta",
+    "categoria": "média",
+    "ca_base": 13,
+    "dex_max": 2,
+    "requisito_for": null,
+    "desvantagem_furtividade": false,
+    "peso": 10.0,
+    "custo_po": 50,
+    "descricao": "Anéis de metal em malha flexível."
+  },
+  {
+    "name": "Cota de Escamas",
+    "categoria": "média",
+    "ca_base": 14,
+    "dex_max": 2,
+    "requisito_for": null,
+    "desvantagem_furtividade": true,
+    "peso": 22.0,
+    "custo_po": 50,
+    "descricao": "Escamas metálicas sobre couraça."
+  },
+  {
+    "name": "Meia-placa",
+    "categoria": "média",
+    "ca_base": 15,
+    "dex_max": 2,
+    "requisito_for": null,
+    "desvantagem_furtividade": true,
+    "peso": 20.0,
+    "custo_po": 750,
+    "descricao": "Placas protegendo as áreas vitais."
+  },
+  {
+    "name": "Malha Anilhada",
+    "categoria": "pesada",
+    "ca_base": 14,
+    "dex_max": 0,
+    "requisito_for": null,
+    "desvantagem_furtividade": true,
+    "peso": 20.0,
+    "custo_po": 30,
+    "descricao": "Anéis simples, proteção básica pesada."
+  },
+  {
+    "name": "Cota de Malha",
+    "categoria": "pesada",
+    "ca_base": 16,
+    "dex_max": 0,
+    "requisito_for": 13,
+    "desvantagem_furtividade": true,
+    "peso": 27.5,
+    "custo_po": 75,
+    "descricao": "Armadura pesada de anéis entrelaçados."
+  },
+  {
+    "name": "Cota de Tiras",
+    "categoria": "pesada",
+    "ca_base": 17,
+    "dex_max": 0,
+    "requisito_for": 15,
+    "desvantagem_furtividade": true,
+    "peso": 30.0,
+    "custo_po": 200,
+    "descricao": "Placas rígidas sobre acolchoamento."
+  },
+  {
+    "name": "Placas",
+    "categoria": "pesada",
+    "ca_base": 18,
+    "dex_max": 0,
+    "requisito_for": 15,
+    "desvantagem_furtividade": true,
+    "peso": 29.0,
+    "custo_po": 1500,
+    "descricao": "Proteção máxima com placas completas."
+  },
+  {
+    "name": "Escudo",
+    "categoria": "escudo",
+    "ca_base": null,
+    "dex_max": null,
+    "requisito_for": null,
+    "desvantagem_furtividade": false,
+    "peso": 3.0,
+    "custo_po": 10,
+    "descricao": "Concede +2 na CA quando empunhado."
+  }
+]

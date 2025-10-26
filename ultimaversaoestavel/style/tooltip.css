@@ -1,0 +1,138 @@
+/* =========================================
+   TOOLTIP GLOBAL - D&D PROJECT
+   Estilo elegante e imersivo
+========================================= */
+
+.tooltip {
+  position: absolute;
+  z-index: 9999;
+  background: radial-gradient(circle at top left, #2c2722, #1c1a17);
+  color: #f0e6d2;
+  border: 1px solid #a88c53;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  padding: 0.8rem 1rem;
+  width: max-content;
+  max-width: 380px;
+  font-family: "MedievalSharp", cursive;
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.15s ease-out, transform 0.2s ease-out;
+}
+
+/* Quando ativa (JS adiciona .show) */
+.tooltip.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================================
+   TÍTULO
+========================================= */
+
+.tooltip-title {
+  color: #d4b16a;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid #6b5c44;
+  padding-bottom: 0.2rem;
+}
+
+/* =========================================
+   CATEGORIAS / DESTAQUES
+========================================= */
+
+.tooltip-category {
+  font-style: italic;
+  color: #bfa76a;
+  margin-bottom: 0.3rem;
+}
+
+.tooltip-content {
+  color: #e9e2c5;
+}
+
+.tooltip-section {
+  margin-top: 0.6rem;
+  border-top: 1px dashed #6b5c44;
+  padding-top: 0.4rem;
+}
+
+/* =========================================
+   LISTAS / ATRIBUTOS
+========================================= */
+
+.tooltip-list {
+  list-style: none;
+  margin-top: 0.3rem;
+}
+
+.tooltip-list li {
+  margin-bottom: 0.2rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.tooltip-list li::before {
+  content: "✦";
+  color: #c19a5b;
+  position: absolute;
+  left: 0;
+}
+
+/* =========================================
+   DADOS / ROLAGENS / MAGIAS
+========================================= */
+
+.tooltip-dice {
+  background: rgba(193, 154, 91, 0.2);
+  border: 1px solid #c19a5b;
+  border-radius: 6px;
+  padding: 0.2rem 0.4rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #e8d5ac;
+}
+
+/* =========================================
+   POSICIONAMENTO ADAPTÁVEL
+========================================= */
+
+.tooltip.top {
+  transform: translate(-50%, -110%);
+}
+
+.tooltip.bottom {
+  transform: translate(-50%, 10%);
+}
+
+.tooltip.left {
+  transform: translate(-110%, -50%);
+}
+
+.tooltip.right {
+  transform: translate(10%, -50%);
+}
+
+/* =========================================
+   ANIMAÇÃO DE APARIÇÃO
+========================================= */
+
+@keyframes tooltip-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tooltip.show {
+  animation: tooltip-fade-in 0.25s ease-out;
+}

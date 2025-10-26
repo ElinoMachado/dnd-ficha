@@ -1,0 +1,107 @@
+{
+  "nome": "",
+  "classe": "",
+  "nivel": 1,
+  "raca": "",
+  "subraca": "",
+  "antecedente": "",
+  "xp": 0,
+  "atributos": {
+    "forca": 10,
+    "destreza": 10,
+    "constituicao": 10,
+    "inteligencia": 10,
+    "sabedoria": 10,
+    "carisma": 10
+  },
+  "proficiencia": 2,
+  "bonus_iniciativa": 0,
+  "classe_armadura": 10,
+  "deslocamento": "9m",
+  "pv": {
+    "total": 0,
+    "atual": 0,
+    "temporario": 0
+  },
+  "testes_resistencia": {
+    "forca": false,
+    "destreza": false,
+    "constituicao": false,
+    "inteligencia": false,
+    "sabedoria": false,
+    "carisma": false
+  },
+  "pericias": [],
+  "ataques": [],
+  "equipamentos": [],
+  "moedas": {
+    "pp": 0,
+    "po": 0,
+    "pe": 0,
+    "pc": 0,
+    "pl": 0
+  },
+  "idiomas": [],
+  "caracteristicas": [],
+  "personalidade": "",
+  "ideais": "",
+  "vinculos": "",
+  "defeitos": "",
+  "historia": "",
+  "aliados": "",
+  "tesouros": "",
+  "magias": {
+    "cd": 0,
+    "mod_ataque": 0,
+    "lista": {
+      "truques": [],
+      "nivel1": [],
+      "nivel2": [],
+      "nivel3": [],
+      "nivel4": [],
+      "nivel5": [],
+      "nivel6": [],
+      "nivel7": [],
+      "nivel8": [],
+      "nivel9": []
+    },
+    "slots": {
+      "nivel1": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel2": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel3": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel4": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel5": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel6": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel7": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel8": {
+        "max": 0,
+        "usados": 0
+      },
+      "nivel9": {
+        "max": 0,
+        "usados": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Humano",
+    "type": "Raça",
+    "tamanho": "Médio",
+    "atributos": {
+      "forca": 1,
+      "destreza": 1,
+      "constituicao": 1,
+      "inteligencia": 1,
+      "sabedoria": 1,
+      "carisma": 1
+    },
+    "deslocamento": "9m",
+    "idiomas": ["Comum", "Outro (à escolha)"],
+    "caracteristicas": ["Versatilidade Humana"],
+    "proficiencias": {
+      "armas": [],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Os humanos são adaptáveis e ambiciosos."
+  },
+  {
+    "name": "Elfo",
+    "type": "Raça",
+    "tamanho": "Médio",
+    "atributos": { "destreza": 2 },
+    "deslocamento": "9m",
+    "idiomas": ["Comum", "Élfico"],
+    "caracteristicas": ["Sentidos Aguçados", "Transe"],
+    "proficiencias": {
+      "armas": ["simples"],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Elfos são ágeis e possuem ancestralidade feérica."
+  },
+  {
+    "name": "Anão",
+    "type": "Raça",
+    "tamanho": "Médio",
+    "atributos": { "constituicao": 2 },
+    "deslocamento": "7m",
+    "idiomas": ["Comum", "Anão"],
+    "caracteristicas": ["Visão no Escuro", "Resiliência Anã"],
+    "proficiencias": {
+      "armas": ["simples"],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Anões são resistentes e habilidosos na forja."
+  },
+  {
+    "name": "Halfling",
+    "type": "Raça",
+    "tamanho": "Pequeno",
+    "atributos": { "destreza": 2 },
+    "deslocamento": "7m",
+    "idiomas": ["Comum", "Halfling"],
+    "caracteristicas": ["Sortudo", "Valente"],
+    "proficiencias": {
+      "armas": [],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Halflings são sorrateiros e corajosos apesar do tamanho."
+  },
+  {
+    "name": "Gnomo",
+    "type": "Raça",
+    "tamanho": "Pequeno",
+    "atributos": { "inteligencia": 2 },
+    "deslocamento": "7m",
+    "idiomas": ["Comum", "Gnômico"],
+    "caracteristicas": ["Esperteza Gnômica"],
+    "proficiencias": {
+      "armas": [],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Gnomos são criativos e curiosos por natureza."
+  },
+  {
+    "name": "Meio-Elfo",
+    "type": "Raça",
+    "tamanho": "Médio",
+    "atributos": { "carisma": 2 },
+    "deslocamento": "9m",
+    "idiomas": ["Comum", "Élfico"],
+    "caracteristicas": ["Versatilidade Élfica"],
+    "proficiencias": {
+      "armas": [],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "A união de duas culturas confere versatilidade única."
+  },
+  {
+    "name": "Meio-Orc",
+    "type": "Raça",
+    "tamanho": "Médio",
+    "atributos": { "forca": 2, "constituicao": 1 },
+    "deslocamento": "9m",
+    "idiomas": ["Comum", "Orc"],
+    "caracteristicas": ["Resistência Incansável"],
+    "proficiencias": {
+      "armas": ["marciais"],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Fortes e destemidos, nascem para o combate."
+  },
+  {
+    "name": "Draconato",
+    "type": "Raça",
+    "tamanho": "Médio",
+    "atributos": { "forca": 2, "carisma": 1 },
+    "deslocamento": "9m",
+    "idiomas": ["Comum", "Dracônico"],
+    "caracteristicas": ["Sopro Dracônico"],
+    "proficiencias": {
+      "armas": ["simples"],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Herança dracônica concede força e presença intimidadora."
+  },
+  {
+    "name": "Tiefling",
+    "type": "Raça",
+    "tamanho": "Médio",
+    "atributos": { "carisma": 2, "inteligencia": 1 },
+    "deslocamento": "9m",
+    "idiomas": ["Comum", "Infernal"],
+    "caracteristicas": ["Legado Infernal"],
+    "proficiencias": {
+      "armas": [],
+      "armaduras": [],
+      "ferramentas": []
+    },
+    "descricao": "Marcados por magia sombria, mas com grande potencial."
+  }
+]

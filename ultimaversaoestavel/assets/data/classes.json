@@ -1,0 +1,313 @@
+[
+  {
+    "name": "Barbaro",
+    "type": "Classe",
+    "dado_vida": "d12",
+    "pv_nivel_1": 12,
+    "progresso_conjuracao": "nenhum",
+    "atributo_conjuracao": null,
+    "salvaguardas": ["forca", "constituicao"],
+    "proficiencias": {
+      "armas": ["simples", "marcial"],
+      "armaduras": ["leve", "media", "escudo"],
+      "ferramentas": []
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Atletismo",
+        "Intimidação",
+        "Natureza",
+        "Sobrevivência",
+        "Percepção",
+        "Lidar com Animais"
+      ]
+    }
+  },
+  {
+    "name": "Bardo",
+    "type": "Classe",
+    "dado_vida": "d8",
+    "pv_nivel_1": 8,
+    "progresso_conjuracao": "cheia",
+    "atributo_conjuracao": "carisma",
+    "salvaguardas": ["destreza", "carisma"],
+    "proficiencias": {
+      "armas": ["simples"],
+      "armaduras": ["leve"],
+      "ferramentas": ["instrumentos musicais"]
+    },
+    "pericias_escolha": {
+      "quantidade": 3,
+      "opcoes": [
+        "Acrobacia",
+        "Atletismo",
+        "Atuação",
+        "Enganação",
+        "História",
+        "Intimidação",
+        "Intuição",
+        "Percepção",
+        "Persuasão",
+        "Religião",
+        "Furtividade",
+        "Sobrevivência"
+      ]
+    }
+  },
+  {
+    "name": "Bruxo",
+    "type": "Classe",
+    "dado_vida": "d8",
+    "pv_nivel_1": 8,
+    "progresso_conjuracao": "pacto",
+    "atributo_conjuracao": "carisma",
+    "salvaguardas": ["sabedoria", "carisma"],
+    "proficiencias": {
+      "armas": ["simples"],
+      "armaduras": ["leve"],
+      "ferramentas": []
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Arcana",
+        "Enganação",
+        "História",
+        "Intimidação",
+        "Investigação",
+        "Natureza",
+        "Religião"
+      ]
+    }
+  },
+  {
+    "name": "Clérigo",
+    "type": "Classe",
+    "dado_vida": "d8",
+    "pv_nivel_1": 8,
+    "progresso_conjuracao": "cheia",
+    "atributo_conjuracao": "sabedoria",
+    "salvaguardas": ["sabedoria", "carisma"],
+    "proficiencias": {
+      "armas": ["simples"],
+      "armaduras": ["leve", "media", "escudo"]
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": ["História", "Intuição", "Medicina", "Persuasão", "Religião"]
+    }
+  },
+  {
+    "name": "Druida",
+    "type": "Classe",
+    "dado_vida": "d8",
+    "pv_nivel_1": 8,
+    "progresso_conjuracao": "cheia",
+    "atributo_conjuracao": "sabedoria",
+    "salvaguardas": ["inteligencia", "sabedoria"],
+    "proficiencias": {
+      "armas": [
+        "bastão",
+        "clava",
+        "adaga",
+        "dardo",
+        "foice",
+        "funda",
+        "lança",
+        "machadinha",
+        "bordão"
+      ],
+      "armaduras": ["leve", "media", "escudo"]
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Intuição",
+        "Medicina",
+        "Natureza",
+        "Percepção",
+        "Religião",
+        "Sobrevivência"
+      ]
+    }
+  },
+  {
+    "name": "Feiticeiro",
+    "type": "Classe",
+    "dado_vida": "d6",
+    "pv_nivel_1": 6,
+    "progresso_conjuracao": "cheia",
+    "atributo_conjuracao": "carisma",
+    "salvaguardas": ["constituição", "carisma"],
+    "proficiencias": {
+      "armas": ["adaga", "dardo", "funda", "bordão", "besta leve"],
+      "armaduras": []
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Arcana",
+        "Enganação",
+        "Intimidação",
+        "Intuição",
+        "Persuasão",
+        "Religião"
+      ]
+    }
+  },
+  {
+    "name": "Guerreiro",
+    "type": "Classe",
+    "dado_vida": "d10",
+    "pv_nivel_1": 10,
+    "progresso_conjuracao": "nenhum",
+    "atributo_conjuracao": null,
+    "salvaguardas": ["forca", "constituicao"],
+    "proficiencias": {
+      "armas": ["simples", "marcial"],
+      "armaduras": ["leve", "media", "pesada", "escudo"]
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Acrobacia",
+        "Atletismo",
+        "História",
+        "Intimidação",
+        "Lidar com Animais",
+        "Percepção",
+        "Sobrevivência"
+      ]
+    }
+  },
+  {
+    "name": "Ladino",
+    "type": "Classe",
+    "dado_vida": "d8",
+    "pv_nivel_1": 8,
+    "progresso_conjuracao": "nenhum",
+    "atributo_conjuracao": null,
+    "salvaguardas": ["destreza", "inteligencia"],
+    "proficiencias": {
+      "armas": ["simples", "bestas leves", "espadas curtas", "espadas longas"],
+      "armaduras": ["leve"]
+    },
+    "pericias_escolha": {
+      "quantidade": 4,
+      "opcoes": [
+        "Acrobacia",
+        "Atletismo",
+        "Atuação",
+        "Enganação",
+        "Furtividade",
+        "História",
+        "Intimidação",
+        "Intuição",
+        "Investigação",
+        "Percepção",
+        "Persuasão",
+        "Prestidigitação"
+      ]
+    }
+  },
+  {
+    "name": "Mago",
+    "type": "Classe",
+    "dado_vida": "d6",
+    "pv_nivel_1": 6,
+    "progresso_conjuracao": "cheia",
+    "atributo_conjuracao": "inteligencia",
+    "salvaguardas": ["inteligencia", "sabedoria"],
+    "proficiencias": {
+      "armas": ["adaga", "dardo", "bordão", "funda", "besta leve"],
+      "armaduras": []
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Arcana",
+        "História",
+        "Intuição",
+        "Investigação",
+        "Medicina",
+        "Religião"
+      ]
+    }
+  },
+  {
+    "name": "Monge",
+    "type": "Classe",
+    "dado_vida": "d8",
+    "pv_nivel_1": 8,
+    "progresso_conjuracao": "nenhum",
+    "atributo_conjuracao": null,
+    "salvaguardas": ["forca", "destreza"],
+    "proficiencias": {
+      "armas": ["simples", "armas de monge"],
+      "armaduras": []
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Acrobacia",
+        "Atletismo",
+        "História",
+        "Intuição",
+        "Religião",
+        "Furtividade"
+      ]
+    }
+  },
+  {
+    "name": "Paladino",
+    "type": "Classe",
+    "dado_vida": "d10",
+    "pv_nivel_1": 10,
+    "progresso_conjuracao": "metade",
+    "atributo_conjuracao": "carisma",
+    "salvaguardas": ["sabedoria", "carisma"],
+    "proficiencias": {
+      "armas": ["simples", "marcial"],
+      "armaduras": ["leve", "media", "pesada", "escudo"]
+    },
+    "pericias_escolha": {
+      "quantidade": 2,
+      "opcoes": [
+        "Atletismo",
+        "Intuição",
+        "Intimidação",
+        "Medicina",
+        "Persuasão",
+        "Religião"
+      ]
+    }
+  },
+  {
+    "name": "Patrulheiro",
+    "type": "Classe",
+    "dado_vida": "d10",
+    "pv_nivel_1": 10,
+    "progresso_conjuracao": "metade",
+    "atributo_conjuracao": "sabedoria",
+    "salvaguardas": ["forca", "destreza"],
+    "proficiencias": {
+      "armas": ["simples", "marcial"],
+      "armaduras": ["leve", "media", "escudo"]
+    },
+    "pericias_escolha": {
+      "quantidade": 3,
+      "opcoes": [
+        "Acrobacia",
+        "Atletismo",
+        "Furtividade",
+        "História",
+        "Intuição",
+        "Investigação",
+        "Natureza",
+        "Percepção",
+        "Sobrevivência"
+      ]
+    }
+  }
+]

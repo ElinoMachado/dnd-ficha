@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciador D&D 5e</title>
+
+    <!-- Estilos principais -->
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/tooltip.css" />
+    <link rel="stylesheet" href="style/ficha.css" />
+
+    <!-- Fonte e ícones (opcional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Gerenciador D&D 5e</h1>
+    </header>
+
+    <main id="app-container">
+      <!-- Painel lateral (3 colunas) -->
+      <aside id="sidebar">
+        <section class="menu-section">
+          <h2>Raças</h2>
+          <ul id="race-list" class="menu-list"></ul>
+        </section>
+
+        <section class="menu-section">
+          <h2>Classes</h2>
+          <ul id="class-list" class="menu-list"></ul>
+        </section>
+
+        <section class="menu-section">
+          <h2>Magias</h2>
+          <ul id="spell-list" class="menu-list"></ul>
+        </section>
+
+        <section class="menu-section">
+          <h2>Equipamentos</h2>
+          <ul id="equipment-list" class="menu-list"></ul>
+        </section>
+
+        <section class="menu-section">
+          <h2>Antepassados</h2>
+          <ul id="ancestry-list" class="menu-list"></ul>
+        </section>
+
+        <section class="menu-section">
+          <h2>Talentos</h2>
+          <ul id="feat-list" class="menu-list"></ul>
+        </section>
+
+        <section class="menu-section">
+          <h2>Outros</h2>
+          <ul id="misc-list" class="menu-list"></ul>
+        </section>
+      </aside>
+
+      <!-- Painel principal (7 colunas) -->
+      <section id="main-content">
+        <!-- Área de visualização da ficha -->
+        <div id="ficha-container">
+          <div class="page-tabs" id="page-tabs"></div>
+          <h2>Ficha do Personagem</h2>
+          <div id="ficha-content">
+            <!-- Ficha será construída dinamicamente pelo fichaBuilder.js -->
+          </div>
+        </div>
+
+        <!-- Tooltip global -->
+        <div id="global-tooltip" class="tooltip hidden"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Baseado no Livro do Jogador D&D 5ª Edição • Todos os direitos da Wizards
+        of the Coast
+      </p>
+    </footer>
+    <!-- Inicialização correta dos scripts, na ordem certa -->
+    <script type="module">
+      import { DataService } from "./js/dataService.js";
+      import { Tooltip } from "./js/tooltip.js";
+      import { UIController } from "./js/uiController.js";
+      import { FichaBuilder } from "./js/fichaBuilder_v2.js";
+      import { PageFlip } from "./js/fichaPageFlip.js";
+
+      async function start() {
+        await UIController.init();
+        FichaBuilder.init();
+        PageFlip.init();
+      }
+
+      start();
+    </script>
+    <script type="module" src="js/fichaPageFlip.js"></script>
+  </body>
+</html>

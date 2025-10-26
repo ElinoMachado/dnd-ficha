@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mochila",
+    "peso": 2.5,
+    "custo_po": 2,
+    "descricao": "Capacidade ~30kg de carga."
+  },
+  {
+    "name": "Corda (15m)",
+    "peso": 4.5,
+    "custo_po": 1,
+    "descricao": "Resistente, útil para escaladas."
+  },
+  {
+    "name": "Tocha",
+    "peso": 0.5,
+    "custo_po": 0.01,
+    "descricao": "Ilumina e pode incendiar objetos."
+  },
+  {
+    "name": "Ra&ccedil;&otilde;es (1 dia)",
+    "peso": 1.0,
+    "custo_po": 0.5,
+    "descricao": "Comida preservada para viagem."
+  },
+  {
+    "name": "Saco de Dormir",
+    "peso": 3.5,
+    "custo_po": 1,
+    "descricao": "Conforto básico para acampar."
+  }
+]
